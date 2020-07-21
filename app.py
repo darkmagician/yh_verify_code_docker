@@ -104,7 +104,7 @@ if __name__ == '__main__':
     opt.add_argument('--model', default='gevent')
     args = opt.parse_args()
     if args.model == 'gevent':
-        from gevent.wsgi import WSGIServer
+        from gevent.pywsgi  import WSGIServer
 
         http_server = WSGIServer(('0.0.0.0', 5000), app)
         print('listen on 0.0.0.0:5000')
