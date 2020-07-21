@@ -1,6 +1,6 @@
 flask
 requests
-pillow
+pillow==6.2.2
 gunicorn
 pytesseract
 gevent
