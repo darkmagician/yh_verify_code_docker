@@ -4,5 +4,5 @@
 
 
 ```shell
-docker run --name verify_code -p 5000:5000 darkmagician/verify_code
+docker run -d --name verify_code -p 5000:5000 darkmagician/verify_code
 ```
